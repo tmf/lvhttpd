@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="ui-mobile-rendering">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>nanolyzer: Measurement</title>
+  <link rel="stylesheet"  href="/css/themes/default/jquery.mobile-1.0.1.css" />
+  <link rel="stylesheet"  href="/css/themes/nanotion/nanotion.css" />
+  <link rel="stylesheet" href="/css/jqm-docs.css" />
+  <link rel="stylesheet"  href="/css/themes/nanotion/styles.css" />
+  <script src="/js/jquery-1.7.1.min.js"></script>
+  <script src="/js/jquery.mobile-1.0.1.min.js"></script>
+  <script src="/js/jqm-docs.js"></script>
+  <script src="/js/jquery.mobile.themeswitcher.js"></script>
+  
+  
+  <script src="/js/nanolyzer.js"></script>
+</head>
+<body>
+  <div data-role="page" class="type-interior" data-theme="b" id="measurement" data-add-back-btn="true">
+    <script src="/js/highcharts.js"></script>
+    <script src="/js/gray.js"></script>
+    
+    <div data-role="header" >
+      <h1>Measurement</h1>
+      
+    </div><!-- /header -->
+    
+    <div data-role="content" data-theme="b">
+      <div class="content-primary">
+		  <a href="#" id="measure" class="{{ measure }}" data-role="button" data-theme="c"><span class="active">Stop</span><span class="idle">Start</span></a>
+        <div id="bdpchart"></div>
+      </div>
+	  <div class="content-secondary">
+		  <iframe width="100%" height="500" src="http://www.ustream.tv/embed/10323201" scrolling="no" frameborder="0" style="border: 0px none transparent;">  <other/>  </iframe>
+		 
+		  </div>
+    </div>
+	</div>
+</body>

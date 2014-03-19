@@ -1,0 +1,2 @@
+a.idle span.active { display: none; }
+a.measuring span.idle { display: none; }
